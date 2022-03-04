@@ -1,4 +1,4 @@
-public class Problema3 {
+public class Problema4 {
 
     public boolean esMultiploDeTres (Integer n){
         return n % 3 == 0;

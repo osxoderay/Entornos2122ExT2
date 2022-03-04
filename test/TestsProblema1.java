@@ -11,7 +11,6 @@ public class TestsProblema1 {
             cadenaText[i] = Problema1.cadenaTexto();
         }
     }
-
     @Test
     public void multiplo_de_3 () {
         Problema1 problema1 = new Problema1();
@@ -25,6 +24,14 @@ public class TestsProblema1 {
         Integer n = 0;
         problema1.esMultiploDeCinco(n);
     }
+
+    @Test
+    public void multiplo_de_5_y_de_3_a_la_vez () {
+        Problema1 problema1 = new Problema1();
+        Integer n = 0;
+        problema1.esMultiploDeCincoYTres(n);
+    }
+
 
 
 
